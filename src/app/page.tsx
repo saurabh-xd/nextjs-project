@@ -1,9 +1,12 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
+import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-     <h1>hello</h1>
-    </div>
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]" >
+    <HeroSection/>
+    <FeaturedCourses/>
+    </main>
   );
 }
