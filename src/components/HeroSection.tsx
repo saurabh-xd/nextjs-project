@@ -27,7 +27,7 @@ function HeroSection() {
           journey today. Whether you're a beginner or looking to refine your
           skills, join us to unlock your true potential.
         </p>
-        <div>
+        <div className="mt-3">
             <Link href={"/courses"}>
             <Button
         borderRadius="1.75rem"
