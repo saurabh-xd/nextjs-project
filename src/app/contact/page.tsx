@@ -16,10 +16,21 @@ function page() {
           programs, or events. Reach out and let us know how we can assist you
           in your musical journey.</p>
       </div>
-      <div className='flex flex-col gap-4'> 
-        <input type="email" placeholder='Your email address' className='bg-black rounded-md w-185 h-10'/>
-        <textarea name="" id="" placeholder='Your message' className='bg-black h-55'></textarea>
-      </div>
+     <div className='flex flex-col gap-4 w-full max-w-md'>
+ <input 
+   type="email" 
+   placeholder='Your email address' 
+   className='bg-black rounded-md w-full h-12 px-4 py-2 text-white placeholder-gray-400 border border-gray-700 focus:border-blue-500 focus:outline-none'
+ />
+ <textarea 
+   placeholder='Your message' 
+   rows={6}
+   className='bg-black rounded-md w-full px-4 py-2 text-white placeholder-gray-400 border border-gray-700 focus:border-blue-500 focus:outline-none resize-vertical'
+ />
+ <button className='bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md'>
+   Send Message
+ </button>
+</div>
       <Meteors number={20}/>
     </div>
    
